@@ -94,4 +94,32 @@ h1 {
     transform: translateY(-4px) scale(1.05);
     box-shadow: 0 6px 14px rgba(0,0,0,0.3);
 }
+/* Banner container */
+.banner {
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 2px solid #e2e2e2;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* Logo image */
+.logo {
+    height: 60px;
+    width: auto;
+    margin-right: 15px;
+}
+
+/* Project PEAR text */
+.title {
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    font-size: 36px;
+    letter-spacing: 1px;
+    margin: 0;
+}
 
