@@ -8,6 +8,7 @@ h1 {
     margin-top: 20px;
 }
 
+/* Collage layout */
 .collage {
     display: flex;
     flex-wrap: wrap;
@@ -23,9 +24,58 @@ h1 {
     border-radius: 12px;
     transform: rotate(-2deg);
     box-shadow: 0 4px 10px rgba(0,0,0,.15);
-    transition: 0.3s;
+    transition: .3s;
 }
 
 .collage img:hover {
     transform: scale(1.08) rotate(0deg);
+}
+
+/* Blog page */
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 20px;
+}
+
+.blog-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.1);
+    text-decoration: none;
+    color: black;
+    transition: .25s;
+}
+
+.blog-card:hover {
+    transform: translateX(8px);
+    box-shadow: 0 6px 16px rgba(0,0,0,.12);
+}
+
+/* Buttons */
+.btn, button {
+    padding: 12px 22px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.btn:hover, button:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 6px 14px rgba(0,0,0,.3);
+}
+
+/* Back button */
+.back-btn {
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: #333;
 }
