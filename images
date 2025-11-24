@@ -1,0 +1,31 @@
+!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Project PEAR</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- 🔥 TOP BANNER -->
+    <header class="banner">
+        <img src="images/logo.png" class="logo">
+        <h1 class="title">Project PEAR</h1>
+    </header>
+
+    <!-- Your page content -->
+    <div class="collage">
+        <img src="images/pic1.jpg">
+        <img src="images/pic2.jpg">
+        <img src="images/pic3.jpg">
+        <img src="images/pic4.jpg">
+    </div>
+
+</body>
+</html>
